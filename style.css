@@ -189,18 +189,21 @@
   }
   .fb:hover{
     color: lightseagreen;
+    transition: 2s;
   }
   .ws{
     color: green;
   }
   .ws:hover{
     color: lightgreen;
+    transition: 2s;
   }
   .map{
     color: royalblue
   }
   .map:hover{
     color: aqua;
+    transition: 2s;
   }
 
   /* REDES */
