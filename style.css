@@ -251,6 +251,18 @@
 
 }
 
+.container{
+  height: 60vh;
+  width: 60vw;
+}
+
+.carousel-item{
+  height: 600px;
+}
+.carousel-item img{
+  height: 600px;
+}
+
 /* GALERIA CARRUSEL */
 
 
