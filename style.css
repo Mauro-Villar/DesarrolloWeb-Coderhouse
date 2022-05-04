@@ -9,6 +9,12 @@
     position: relative;
     min-height: 100vh;
   }
+
+  .img__responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
   /* HEADER */
   .header{
     background-color: red;
@@ -125,7 +131,27 @@
     
   }
 
-    
+  .bienvenido__class{
+    text-align: center;
+    font-size: 32px;
+    color: red;
+    font-weight: bold;
+  }
+  
+  .btn{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    border: 0;
+    font-weight: bold;
+    /* padding: 10px 20px */;
+    color: white;
+    font-size: 18px;
+    border: 3px solid white;
+    margin: 0 auto 15px auto;
+    width: fit-content;
+  }  
+
   .formulario{
     color: whitesmoke;
     text-shadow: black 0.1em 0.1em 0.2em;
@@ -167,7 +193,7 @@
 
   /* FOOTER */
   .footer{
-    position: fixed;
+    position: relative;
     display: flex;
     /* flex-direction: row; */
     justify-content: space-evenly;
@@ -260,7 +286,7 @@
   height: 600px;
 }
 .carousel-item img{
-  height: 600px;
+  height: 60vh;
 }
 
 /* GALERIA CARRUSEL */
