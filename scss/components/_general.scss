@@ -14,6 +14,13 @@ body{
     height: auto;
 }
 
+.bgimagen{
+  background-image: url("../../imagenes/Seg1\ fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .header{
     background-color: red;
     background-image: url("../../imagenes/Seg1\ header.jpg");
@@ -42,12 +49,7 @@ body{
   }
 
 
-  .bgimagen{
-    background-image: url("../../imagenes/Seg1\ fondo.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
+
 
 
   .footer{
