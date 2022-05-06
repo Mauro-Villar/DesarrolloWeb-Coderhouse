@@ -2,18 +2,25 @@
   padding: 0;
   margin: 0; }
 
-body {
+.body {
   position: relative;
-  min-width: 100vh; }
+  min-width: 100vw; }
 
 .img__responsive {
   display: block;
   max-width: 100%;
   height: auto; }
 
+.bgimagen {
+  background-image: url("../imagenes/Seg1 fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw; }
+
 .header {
   background-color: red;
-  background-image: url("../../imagenes/Seg1 header.jpg");
+  background-image: url("../imagenes/Seg1 header.jpg");
   background-size: cover;
   background-position: center;
   border: 1px solid black;
@@ -30,12 +37,6 @@ body {
 .nav-link {
   font-size: 25px;
   margin-left: 70px; }
-
-.bgimagen {
-  background-image: url("../../imagenes/Seg1 fondo.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; }
 
 .footer {
   position: relative;
@@ -95,3 +96,7 @@ h2 {
   text-align: center;
   color: whitesmoke;
   font-size: 24px; }
+
+@media only screen and (max-width: 425px) {
+  .container {
+    width: 100%; } }

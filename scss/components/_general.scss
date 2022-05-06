@@ -3,9 +3,9 @@
     margin: 0;
 }
 
-body{
+.body{
     position: relative;
-    min-width: 100vh;
+    min-width: 100vw;
 }
 
 .img__responsive{
@@ -15,15 +15,16 @@ body{
 }
 
 .bgimagen{
-  background-image: url("../../imagenes/Seg1\ fondo.jpg");
+  background-image: url("../imagenes/Seg1\ fondo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  width: 100vw;
 }
 
 .header{
     background-color: red;
-    background-image: url("../../imagenes/Seg1\ header.jpg");
+    background-image: url("../imagenes/Seg1\ header.jpg");
     background-size: cover;
     background-position: center;
     border: 1px solid black;
