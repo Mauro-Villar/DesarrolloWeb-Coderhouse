@@ -1,2 +1,97 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  position: relative;
+  min-width: 100vh; }
+
+.img__responsive {
+  display: block;
+  max-width: 100%;
+  height: auto; }
+
 .header {
-  background-color: red; }
+  background-color: red;
+  background-image: url("../../imagenes/Seg1 header.jpg");
+  background-size: cover;
+  background-position: center;
+  border: 1px solid black;
+  opacity: 90%; }
+
+.navbar-nav.navbar-center {
+  position: relative;
+  left: 50%;
+  transform: translatex(-50%); }
+
+.navbar-brand {
+  font-size: 25px; }
+
+.nav-link {
+  font-size: 25px;
+  margin-left: 70px; }
+
+.bgimagen {
+  background-image: url("../../imagenes/Seg1 fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.footer {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  bottom: 0;
+  padding: 20px; }
+
+.logo__footer {
+  position: relative;
+  width: 60px;
+  height: 60px; }
+
+h1 {
+  color: whitesmoke;
+  text-align: center; }
+
+h2 {
+  color: whitesmoke;
+  text-align: center; }
+
+.galery__img img {
+  height: 550px;
+  width: 550px;
+  padding: 0 5px; }
+
+.container {
+  height: 60vh;
+  width: 60vw; }
+
+.carousel-item {
+  height: 600px; }
+
+.carousel-item img {
+  height: 60vh; }
+
+.bienvenido__class {
+  text-align: center;
+  font-size: 32px;
+  color: red;
+  font-weight: bold; }
+
+.btn {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  border: 0;
+  font-weight: bold;
+  color: whitesmoke;
+  font-size: 18px;
+  border: 3px solid whitesmoke;
+  margin: 0 auto 15px auto;
+  width: fit-content; }
+
+.res__home {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 24px; }
