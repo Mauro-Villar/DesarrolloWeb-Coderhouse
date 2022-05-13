@@ -1,26 +1,25 @@
 .bienvenido__class{
     text-align: center;
     font-size: 32px;
-    color: red;
+    color: map-get($color , color-secundario );
     font-weight: bold;
 }
 
 .btn{
     cursor: pointer;
     display: flex;
-    justify-content: center;
+    @include flexbox (center, fit-content);
     border: 0;
     font-weight: bold;
-    color: $color-texto;
+    color: map-get($color , color-principal );
     font-size: 18px;
-    border: 3px solid $color-texto;
+    border: 3px solid map-get($color , color-principal );
     margin: 0 auto 15px auto;
-    width: fit-content;
   }  
 
   .res__home{
       text-align: center;
-      color: $color-texto;
+      color: map-get($color , color-principal );
       font-size: 24px;
       
   }
@@ -30,6 +29,8 @@
       .container{
           width: 100%;
       }
+      
+
 
       
       

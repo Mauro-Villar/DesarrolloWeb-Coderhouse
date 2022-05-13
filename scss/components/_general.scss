@@ -3,9 +3,11 @@
     margin: 0;
 }
 
+
+
 .body{
     position: relative;
-    min-width: 100vw;
+    width: 100vw;
 }
 
 .img__responsive{
@@ -20,15 +22,17 @@
   background-size: cover;
   background-position: center;
   width: 100vw;
+  
 }
 
 .header{
-    background-color: red;
+    
     background-image: url("../imagenes/Seg1\ header.jpg");
     background-size: cover;
     background-position: center;
     border: 1px solid black;
     opacity: 90%;
+    width: 100vw;
     
 }
 
@@ -54,13 +58,7 @@
 
 
   .footer{
-    position: relative;
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    bottom: 0;
-    padding: 20px;
-    
+    @extend %footer; 
   }
 
   .logo__footer{
@@ -71,12 +69,12 @@
   }
 
 h1{
- color: $color-texto;
+ color: map-get($color, color-principal );
  text-align: center;
 }
 
 h2{
-  color: $color-texto;
+  color: map-get($color, color-principal );
   text-align: center;
 }
 

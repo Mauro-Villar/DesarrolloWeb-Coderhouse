@@ -1,10 +1,18 @@
+.footer {
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+  width: 100%;
+  bottom: 0;
+  padding: 20px; }
+
 * {
   padding: 0;
   margin: 0; }
 
 .body {
   position: relative;
-  min-width: 100vw; }
+  width: 100vw; }
 
 .img__responsive {
   display: block;
@@ -19,12 +27,12 @@
   width: 100vw; }
 
 .header {
-  background-color: red;
   background-image: url("../imagenes/Seg1 header.jpg");
   background-size: cover;
   background-position: center;
   border: 1px solid black;
-  opacity: 90%; }
+  opacity: 90%;
+  width: 100vw; }
 
 .navbar-nav.navbar-center {
   position: relative;
@@ -37,14 +45,6 @@
 .nav-link {
   font-size: 25px;
   margin-left: 70px; }
-
-.footer {
-  position: relative;
-  display: flex;
-  justify-content: space-evenly;
-  width: 100%;
-  bottom: 0;
-  padding: 20px; }
 
 .logo__footer {
   position: relative;
@@ -84,13 +84,13 @@ h2 {
   cursor: pointer;
   display: flex;
   justify-content: center;
+  width: fit-content;
   border: 0;
   font-weight: bold;
   color: whitesmoke;
   font-size: 18px;
   border: 3px solid whitesmoke;
-  margin: 0 auto 15px auto;
-  width: fit-content; }
+  margin: 0 auto 15px auto; }
 
 .res__home {
   text-align: center;

@@ -1,1 +1,20 @@
-$color-texto: whitesmoke;
+$color:(
+    color-principal: whitesmoke,
+    color-secundario: red,
+    );
+
+%footer{
+        display: flex;
+        position: relative;
+        justify-content: space-evenly;
+        width: 100%;
+        bottom: 0;
+        padding: 20px;
+    }
+
+@mixin flexbox ($justify, $width){
+    justify-content: $justify;
+    width: $width;
+}
+
+
