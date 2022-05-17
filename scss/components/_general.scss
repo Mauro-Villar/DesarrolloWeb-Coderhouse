@@ -68,6 +68,14 @@
     
   }
 
+  .res__home{
+    text-align: center;
+    color: map-get($color , color-principal );
+    font-size: 24px;
+    
+    
+}
+
 h1{
  color: map-get($color, color-principal );
  text-align: center;
@@ -78,6 +86,9 @@ h2{
   text-align: center;
 }
 
+h4{
+  color: map-get($color, color-principal );
+}
 .galery__img img{
   height: 550px;
   width: 550px;
