@@ -22,6 +22,7 @@
   background-size: cover;
   background-position: center;
   width: 100vw;
+  height: 100vh;
   
 }
 
@@ -94,7 +95,10 @@ h4{
   width: 550px;
   padding: 0 5px;
 
+}
 
+p{
+  color: map-get($color, color-principal );
 }
 
 .container{
@@ -108,3 +112,11 @@ h4{
 .carousel-item img{
   height: 60vh;
 }
+
+@media only screen and (max-width:768px){
+  .bgimagen{
+    height: 100vh;
+    width: 100%;
+  }
+}
+  

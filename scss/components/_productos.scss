@@ -2,28 +2,66 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    @media only screen and (max-width: 768px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 .pics-catalogos img {
-    height: 400px;
+    height: 300px;
     width: 100%;
     object-fit: cover;
+    border-radius: 20px;
+}
+
+.cards-catalogo{
+    margin: 0 10px;
 }
 
 .pics-catalogos h4 {
     text-align: center;
+    margin-top: 10px;
 }
 
 .pics-catalogos h4:hover{
-    cursor: pointer;
     text-decoration: underline;
 }
 
 .h1Catalogo{
-    width: 12%;
+    width: 100px;
     margin: auto;
     text-align: center;
-    padding: 1px;
     text-decoration: underline;
     margin-bottom: 20px;
+}
+
+
+@media only screen and (max-width:1024px){
+    .pics-catalogos img {
+        height: 220px;
+        width: 100%;
+        object-fit: contain;
+    
+    }
+      
+}
+
+@media only screen and (max-width:768px){
+    .pics-catalogos img {
+        height: 140px;
+        width: 100%;
+        object-fit: contain;
+    
+    }
+      
+}
+
+@media only screen and (max-width:425px){
+    .pics-catalogos img {
+        height: 115px;
+        width: 100%;
+        object-fit: contain;
+    
+    }
+      
 }
