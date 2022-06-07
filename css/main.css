@@ -1,18 +1,15 @@
 .footer {
   display: flex;
-  position: relative;
   justify-content: space-evenly;
   width: 100%;
-  bottom: 0;
-  padding: 20px; }
+  padding: .5em 0; }
 
 * {
   padding: 0;
   margin: 0; }
 
-.body {
-  position: relative;
-  width: 100vw; }
+main {
+  min-height: 100vh; }
 
 .img__responsive {
   display: block;
@@ -22,10 +19,7 @@
 .bgimagen {
   background-image: url("../imagenes/Seg1 fondo.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 100vw;
-  height: 100vh; }
+  background-size: cover; }
 
 .header {
   background-image: url("../imagenes/Seg1 header.jpg");
@@ -88,7 +82,12 @@ p {
 
 @media only screen and (max-width: 768px) {
   .bgimagen {
-    height: 100vh;
+    height: 100%;
+    width: 100%; } }
+
+@media only screen and (max-width: 425px) {
+  .bgimagen {
+    height: 100%;
     width: 100%; } }
 
 .bienvenido__class {
@@ -222,9 +221,27 @@ p {
   color: aqua;
   transition: 2s; }
 
-.footer {
-  position: absolute; }
+@media only screen and (max-width: 1024px) {
+  .redeslist {
+    display: inline;
+    font-size: 9px; } }
 
+@media only screen and (max-width: 768px) {
+  .redeslist {
+    display: inline;
+    font-size: 9px; } }
+
+@media only screen and (max-width: 425px) {
+  .socialmedia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 60px; } }
+
+/* %footer{
+    position: absolute;
+  } */
 .quienes-somos {
   display: flex;
   flex-direction: row; }
@@ -264,8 +281,8 @@ p {
   .quienes-somos-img img {
     margin-left: 20px;
     border-radius: 500px;
-    height: 550px;
-    width: 550px; }
+    height: 600px;
+    width: 600px; }
     @media only screen and (max-width: 1440px) {
       .quienes-somos-img img {
         height: 400px;
